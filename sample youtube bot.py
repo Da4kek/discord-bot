@@ -4,6 +4,7 @@ from discord.utils import get
 import youtube_dl
 import os
 import shutil
+from config import BOT_TOKEN
 
 BOT_PREFIX = '*'
 
@@ -229,4 +230,4 @@ async def queue(ctx, url: str):
 
 
 
-bot.run('NzM0NDA5NTYxNTQ0NTg5NDMz.XxRSNA.U7DKh5h63AxIefbYDRSDTKY77lo')
+bot.run(BOT_TOKEN)
